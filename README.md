@@ -7,4 +7,4 @@ Since the code for the [vim colorscheme](https://github.com/dracula/vim) is writ
 
 ## Redefining the colors
 
-You find the redefined colors in `autoload/dracula.vim`.
+You find the redefined colors in `autoload/dracula-helix.vim`.
