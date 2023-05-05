@@ -43,6 +43,7 @@ let s:comment   = g:dracula#palette.comment
 let s:selection = g:dracula#palette.selection
 let s:subtle    = g:dracula#palette.subtle
 
+let s:blue      = g:dracula#palette.blue
 let s:cyan      = g:dracula#palette.cyan
 let s:green     = g:dracula#palette.green
 let s:orange    = g:dracula#palette.orange
@@ -158,6 +159,9 @@ call s:h('DraculaSelection', s:none, s:selection)
 
 call s:h('DraculaSubtle', s:subtle)
 
+call s:h('DraculaBlue', s:blue)
+call s:h('DraculaBlueItalic', s:blue, s:none, [s:attrs.italic])
+
 call s:h('DraculaCyan', s:cyan)
 call s:h('DraculaCyanItalic', s:cyan, s:none, [s:attrs.italic])
 
@@ -219,7 +223,7 @@ call s:h('CursorLine', s:none, s:subtle)
 
 hi! link ColorColumn  DraculaBgDark
 hi! link CursorColumn CursorLine
-hi! link CursorLineNr DraculaYellow
+hi! link CursorLineNr DraculaPink
 hi! link DiffAdd      DraculaGreen
 hi! link DiffAdded    DiffAdd
 hi! link DiffChange   DraculaDiffChange
@@ -298,38 +302,38 @@ hi! link SpellLocal DraculaWarnLine
 hi! link SpellCap DraculaInfoLine
 hi! link SpellRare DraculaInfoLine
 
-hi! link Constant DraculaPurple
-hi! link String DraculaYellow
+hi! link Constant DraculaCyan
+hi! link String DraculaPink
 hi! link Character DraculaPink
 hi! link Number Constant
 hi! link Boolean Constant
 hi! link Float Constant
 
 hi! link Identifier DraculaFg
-hi! link Function DraculaGreen
+hi! link Function DraculaPurple
 
-hi! link Statement DraculaPink
-hi! link Conditional DraculaPink
-hi! link Repeat DraculaPink
-hi! link Label DraculaPink
-hi! link Operator DraculaPink
-hi! link Keyword DraculaPink
-hi! link Exception DraculaPink
+hi! link Statement DraculaGreen
+hi! link Conditional DraculaGreen
+hi! link Repeat DraculaGreen
+hi! link Label DraculaGreen
+hi! link Operator DraculaGreen
+hi! link Keyword DraculaGreen
+hi! link Exception DraculaGreen
 
-hi! link PreProc DraculaPink
-hi! link Include DraculaPink
-hi! link Define DraculaPink
-hi! link Macro DraculaPink
-hi! link PreCondit DraculaPink
-hi! link StorageClass DraculaPink
-hi! link Structure DraculaPink
-hi! link Typedef DraculaPink
+hi! link PreProc DraculaGreen
+hi! link Include DraculaGreen
+hi! link Define DraculaGreen
+hi! link Macro DraculaGreen
+hi! link PreCondit DraculaGreen
+hi! link StorageClass DraculaGreen
+hi! link Structure DraculaGreen
+hi! link Typedef DraculaGreen
 
-hi! link Type DraculaCyanItalic
+hi! link Type DraculaBlueItalic
 
 hi! link Delimiter DraculaFg
 
-hi! link Special DraculaPink
+hi! link Special DraculaGreen
 hi! link SpecialComment DraculaCyanItalic
 hi! link Tag DraculaCyan
 hi! link helpHyperTextJump DraculaLink
