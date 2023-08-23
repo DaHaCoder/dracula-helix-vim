@@ -42,7 +42,7 @@
 "let g:dracula#palette.color_15 = '#FFFFFF'
 
 "========================================
-"========== DEFINE OWN COLORS =========== 
+"========== DEFINE OWN COLORS ===========
 let g:dracula#palette           = {}
 let g:dracula#palette.fg        = ['#D4D4D4', 253]
 
@@ -54,7 +54,7 @@ let g:dracula#palette.bgdarker  = ['#191A21', 234]
 
 let g:dracula#palette.comment   = ['#5A7296',  61]
 let g:dracula#palette.selection = ['#44475A', 239]
-let g:dracula#palette.subtle    = ['#424450', 238]
+let g:dracula#palette.subtle    = ['#364257', 238]
 
 let g:dracula#palette.cyan      = ['#007FFF', 117]
 let g:dracula#palette.green     = ['#8B67FF',  84]
