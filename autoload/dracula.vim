@@ -56,13 +56,13 @@ let g:dracula#palette.comment   = ['#5A7296',  61]
 let g:dracula#palette.selection = ['#44475A', 239]
 let g:dracula#palette.subtle    = ['#364257', 238]
 
-let g:dracula#palette.cyan      = ['#007FFF', 117]
-let g:dracula#palette.green     = ['#8B67FF',  84]
-let g:dracula#palette.orange    = ['#FFF777', 215]
-let g:dracula#palette.pink      = ['#00FF7F', 212]
-let g:dracula#palette.purple    = ['#10BCEB', 141]
-let g:dracula#palette.red       = ['#FF5555', 203]
-let g:dracula#palette.yellow    = ['#FF007F', 228]
+let g:dracula#palette.cyan      = ['#007FFF', 117]  " Actually blue
+let g:dracula#palette.green     = ['#8B67FF',  84]  " Actually purple
+let g:dracula#palette.orange    = ['#FFF777', 215]  " Actually yellow
+let g:dracula#palette.pink      = ['#00FF7F', 212]  " Actually green
+let g:dracula#palette.purple    = ['#10BCEB', 141]  " Actually cyan
+let g:dracula#palette.red       = ['#FF5555', 203]  " This is red, yay!
+let g:dracula#palette.yellow    = ['#FF007F', 228]  " Actually pink
 
 "
 " ANSI
