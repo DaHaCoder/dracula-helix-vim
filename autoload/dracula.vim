@@ -57,7 +57,7 @@ let g:dracula#palette.selection = ['#44475A', 239]
 let g:dracula#palette.subtle    = ['#364257', 238]
 
 let g:dracula#palette.cyan      = ['#007FFF', 117]  " Actually blue
-let g:dracula#palette.green     = ['#8B67FF',  84]  " Actually purple
+let g:dracula#palette.green     = ['#7F77FF',  84]  " Actually purple
 let g:dracula#palette.orange    = ['#FFF777', 215]  " Actually yellow
 let g:dracula#palette.pink      = ['#00FF7F', 212]  " Actually green
 let g:dracula#palette.purple    = ['#10BCEB', 141]  " Actually cyan
